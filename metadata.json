@@ -1,0 +1,6 @@
+{
+  "name": "Inksight",
+  "description": "An interactive creative writing platform where words come alive with AI-powered atmosphere and visualizations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
