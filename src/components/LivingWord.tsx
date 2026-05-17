@@ -13,41 +13,49 @@ const CATEGORIES = [
   {
     id: "solar",
     color: "#FF7A00",
-    nouns: ["sun", "flame", "summer", "noon", "torch", "fire", "heat", "star", "day", "light", "candle", "bonfire", "lava", "magma", "ember", "spark", "radiance", "dawn"],
-    verbs: ["blaze", "glow", "warm", "ignite", "shine", "burn", "radiate", "scorch", "kindle", "flicker", "beam"],
-    adjs: ["golden", "bright", "radiant", "solar", "warm", "hot", "brilliant", "sunny", "fiery", "ablaze", "luminous", "vivid"],
+    nouns: ["sun", "flame", "summer", "noon", "torch", "fire", "heat", "star", "day", "light", "candle", "bonfire", "lava", "magma", "ember", "spark", "radiance", "dawn", "sunrise", "sunset", "phoenix", "match", "flare", "pyre", "hearth"],
+    verbs: ["blaze", "glow", "warm", "ignite", "shine", "burn", "radiate", "scorch", "kindle", "flicker", "beam", "toast", "char", "seared"],
+    adjs: ["golden", "bright", "radiant", "solar", "warm", "hot", "brilliant", "sunny", "fiery", "ablaze", "luminous", "vivid", "scorching", "thermal", "incandescent", "blazing"],
     animation: "glow"
   },
   {
     id: "rainbow",
     color: "#FF7A00",
-    nouns: ["rainbow", "prism", "color", "spectrum", "palette", "hue", "dye", "paint", "pigment"],
-    verbs: ["paint", "color", "tint", "shade"],
-    adjs: ["colorful", "vibrant", "chromatic", "multicolored", "vivid", "bright", "saturated"],
+    nouns: ["rainbow", "prism", "color", "spectrum", "palette", "hue", "dye", "paint", "pigment", "canvas", "brush", "tint", "shade", "tone", "gradient"],
+    verbs: ["paint", "color", "tint", "shade", "sketch", "draw", "dye", "stain"],
+    adjs: ["colorful", "vibrant", "chromatic", "multicolored", "vivid", "bright", "saturated", "kaleidoscopic", "prismatic", "brilliant", "neon"],
     animation: "pulsate"
   },
   {
     id: "water",
     color: "#2C7BE5",
-    nouns: ["rain", "ocean", "river", "wave", "frost", "snow", "mist", "flood", "dew", "storm", "ice", "sea", "water", "tear", "brook", "stream", "lake", "pool", "tide", "surf", "glacier", "pond", "fountain"],
-    verbs: ["drizzle", "pour", "flow", "rush", "leak", "drip", "splash", "wave", "sink", "swim", "float", "wash", "soak", "drown", "ripple"],
-    adjs: ["cold", "blue", "frozen", "wet", "liquid", "aqueous", "deep", "marine", "fluid", "crystal", "clear"],
+    nouns: ["rain", "ocean", "river", "wave", "frost", "snow", "mist", "flood", "dew", "storm", "ice", "sea", "water", "tear", "brook", "stream", "lake", "pool", "tide", "surf", "glacier", "pond", "fountain", "creek", "lagoon", "bay", "harbor", "depth", "fathom", "liquid", "moisture", "spray", "bubble"],
+    verbs: ["drizzle", "pour", "flow", "rush", "leak", "drip", "splash", "wave", "sink", "swim", "float", "wash", "soak", "drown", "ripple", "dive", "submerge", "melt", "freeze", "thaw", "cascade", "plunge"],
+    adjs: ["cold", "blue", "frozen", "wet", "liquid", "aqueous", "deep", "marine", "fluid", "crystal", "clear", "aquatic", "misty", "damp", "soaked", "tidal", "oceanic"],
     animation: "flow"
   },
   {
     id: "nature",
     color: "#2D8C4E",
-    nouns: ["forest", "roots", "soil", "leaf", "meadow", "moss", "branch", "seed", "earth", "grass", "vine", "nature", "tree", "bloom", "flower", "garden", "jungle", "petal", "thorn", "stem", "bark", "wood", "flora"],
-    verbs: ["grow", "bloom", "sprout", "flourish", "wilt", "plant", "climb", "root", "decay"],
-    adjs: ["green", "lush", "natural", "verdant", "wild", "botanical", "earthy", "fertile", "organic"],
+    nouns: ["forest", "roots", "soil", "leaf", "meadow", "moss", "branch", "seed", "earth", "grass", "vine", "nature", "tree", "bloom", "flower", "garden", "jungle", "petal", "thorn", "stem", "bark", "wood", "flora", "fauna", "beast", "wildlife", "critter", "creature", "plain", "valley", "swamp", "marsh", "evergreen", "sprout"],
+    verbs: ["grow", "bloom", "sprout", "flourish", "wilt", "plant", "climb", "root", "decay", "harvest", "gather", "prune", "sow", "wither", "bud"],
+    adjs: ["green", "lush", "natural", "verdant", "wild", "botanical", "earthy", "fertile", "organic", "floral", "leafy", "woody", "primal", "untamed"],
+    animation: "ripple"
+  },
+  {
+    id: "mountain",
+    color: "#78350F",
+    nouns: ["mountain", "cliff", "peak", "summit", "rock", "stone", "boulder", "cave", "canyon", "hill", "ridge", "slat", "gravel", "pebble", "crag", "dust", "earth", "ground", "path", "trail"],
+    verbs: ["climb", "stand", "endure", "shield", "block", "crumble", "crush", "stumble", "fall"],
+    adjs: ["heavy", "hard", "solid", "stony", "ancient", "giant", "massive", "rugged", "lofty", "steep", "immobile", "mighty"],
     animation: "ripple"
   },
   {
     id: "night",
     color: "#6B3FA0",
-    nouns: ["shadow", "darkness", "void", "abyss", "dusk", "midnight", "phantom", "eclipse", "ghost", "night", "moon", "silence", "sleep", "dream", "shade", "twilight", "evening", "cave", "owl"],
-    verbs: ["dim", "fade", "obscure", "hide", "sleep", "dream", "haunt", "lurk", "vanish", "drift"],
-    adjs: ["dark", "phantom", "secret", "nocturnal", "dim", "eerie", "black", "silent", "dusky", "somber"],
+    nouns: ["shadow", "darkness", "void", "abyss", "dusk", "midnight", "phantom", "eclipse", "ghost", "night", "moon", "silence", "sleep", "dream", "shade", "twilight", "evening", "cave", "owl", "bat", "vampire", "coffin", "grave", "spirit", "wraith", "reaper", "curse", "omen"],
+    verbs: ["dim", "fade", "obscure", "hide", "sleep", "dream", "haunt", "lurk", "vanish", "drift", "sneak", "stalk", "creep", "shiver"],
+    adjs: ["dark", "phantom", "secret", "nocturnal", "dim", "eerie", "black", "silent", "dusky", "somber", "gloomy", "ominous", "haunted", "shadowy", "deadly"],
     animation: "fade"
   },
   {
@@ -250,7 +258,7 @@ export const LivingWord = memo(function LivingWord({ word, onClick }: LivingWord
             {/* The Visual Overlay: Absolute centered over the anchor's space */}
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
               <div className="w-[3.5rem] h-[1.5em] shrink-0">
-                <DoodleRenderer type={semanticInfo!.id} color={semanticColor} pos={semanticInfo!.pos} />
+                <DoodleRenderer type={semanticInfo!.id} color={semanticColor} pos={semanticInfo!.pos} word={word} />
               </div>
             </div>
           </motion.span>

@@ -8,7 +8,7 @@ interface DoodleContextType {
 const DoodleContext = createContext<DoodleContextType | undefined>(undefined);
 
 export function DoodleProvider({ children }: { children: ReactNode }) {
-  const [isDoodleMode, setIsDoodleMode] = useState(false);
+  const [isDoodleMode, setIsDoodleMode] = useState(true);
 
   const toggleDoodleMode = () => {
     setIsDoodleMode((prev) => !prev);
